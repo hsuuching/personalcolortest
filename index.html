@@ -1,118 +1,239 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>找到你的命定色｜個人色彩分析網站推薦</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fce9ec">
+  <meta name="description" content="映色，以個人色彩季型、專屬色盤與彩妝靈感，陪你找到自己的光。">
+  <title>映色 YANSE｜個人色彩與美妝靈感</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+:root{--paper:#fff6f6;--pink:#f8e1e5;--rose:#c67884;--rose-dark:#8f4e5e;--ink:#392b30;--muted:#82757a;--line:#ead9dc;--cream:#fffdfa;--serif:"Noto Serif TC",serif;--sans:"DM Sans","Noto Serif TC",sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}.topbar{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 7.5%;border-bottom:1px solid #eedee0;background:#fff8f8}.brand{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--ink);font-family:var(--serif);font-size:16px;font-weight:600;letter-spacing:.04em}.brand-icon{display:grid;place-items:center;width:34px;height:34px;background:#e8b2b7;border-radius:50%;color:#fff;font:22px var(--sans)}.brand small{display:block;margin-top:3px;font:8px var(--sans);letter-spacing:.17em;color:#a28185}.topbar nav{display:flex;gap:38px}.topbar nav a,.header-link{text-decoration:none;color:#69585e;font-size:11px;letter-spacing:.04em}.topbar nav a:hover,.header-link:hover{color:var(--rose-dark)}.header-link{padding:9px 0;border-bottom:1px solid #ca9ca3}.header-link span{padding-left:9px}.hero{min-height:548px;padding:69px 12.5% 53px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:6%;background:radial-gradient(ellipse at 81% 39%,#f7dde0 0,#fbeaec 31%,transparent 65%)}.eyebrow{font:600 9px var(--sans);letter-spacing:.19em;color:#a07d83}.hero .eyebrow span{display:inline-block;width:20px;height:1px;background:#c87985;vertical-align:middle;margin-right:9px}.hero h1{font:500 clamp(48px,6.4vw,76px)/1.35 var(--serif);letter-spacing:.035em;margin:22px 0 15px}.hero h1 span{color:#bc7480}.hero-copy>p:not(.eyebrow){font-size:12px;line-height:2.1;color:#786a6e;margin-bottom:26px}.button{height:48px;display:inline-flex;align-items:center;gap:28px;padding:0 19px;text-decoration:none;font-size:11px;letter-spacing:.04em}.primary-button{background:#794c57;color:white;box-shadow:0 8px 18px #985c6524}.primary-button:hover{background:#633c47}.primary-button span{font-size:17px}.hero-footnote{margin-top:36px;color:#9e8e91;font-size:9px;letter-spacing:.06em}.hero-footnote span{color:#be7884;margin-right:10px}.hero-art{height:365px;max-width:415px;width:100%;justify-self:center;position:relative;overflow:hidden;background:#f5dce0;border-radius:45% 45% 12px 12px}.hero-art:before{content:"";position:absolute;inset:12px;border:1px solid #fff9f5;border-radius:45% 45% 5px 5px;z-index:3}.art-blob{position:absolute;border-radius:50%}.blob-back{width:225px;height:225px;top:54px;right:43px;background:#e6b0b5}.blob-front{width:170px;height:170px;bottom:-18px;left:19px;background:#f2c9c6}.swatch-card{position:absolute;left:58px;top:91px;width:240px;height:148px;background:#fffaf7;transform:rotate(-8deg);z-index:2;display:flex;gap:7px;align-content:start;align-items:start;padding:17px 14px;box-shadow:0 13px 28px #8d5e6528}.swatch{height:92px;flex:1;border-radius:30px 30px 5px 5px}.swatch-rose{background:linear-gradient(#e5b5b5,#b36e7d)}.swatch-peach{background:linear-gradient(#f4d2bb,#df987d)}.swatch-mauve{background:linear-gradient(#d4b3ba,#99717f)}.swatch-berry{background:linear-gradient(#bd8791,#743f54)}.swatch-card small{position:absolute;bottom:8px;left:14px;font-size:7px;letter-spacing:.17em;color:#9b8587}.lipstick{position:absolute;width:78px;height:187px;right:62px;bottom:27px;z-index:3;transform:rotate(13deg)}.lipstick-bullet{position:absolute;top:0;left:21px;width:37px;height:68px;background:linear-gradient(90deg,#9e4e5d,#c87882 45%,#944352);border-radius:13px 13px 4px 4px;clip-path:polygon(0 23%,100% 0,100% 100%,0 100%)}.lipstick-case{position:absolute;bottom:0;left:12px;width:58px;height:126px;background:linear-gradient(90deg,#68454c,#aa7779 48%,#6b474c);border-radius:5px 5px 9px 9px}.lipstick-band{position:absolute;left:12px;bottom:39px;width:58px;height:7px;background:#d4b6a3}.art-label{position:absolute;font-size:8px;line-height:1.7;letter-spacing:.12em;color:#895965;z-index:4}.art-label b{font:italic 14px var(--serif);letter-spacing:0}.label-top{top:35px;left:27px}.label-bottom{right:17px;bottom:24px;color:#fff6f3}.art-sticker{position:absolute;bottom:79px;left:53px;width:65px;height:65px;background:#fff7ef;border-radius:50%;display:grid;place-content:center;text-align:center;font:italic 9px/1.25 var(--serif);color:#99636c;transform:rotate(-10deg);z-index:4;box-shadow:0 6px 17px #8d5e6524}.art-sticker span{position:absolute;top:-7px;right:-2px;color:#c77985;font-size:18px}.how-strip{display:flex;justify-content:center;align-items:center;gap:34px;background:#fffafa;border-top:1px solid #f0dfe2;border-bottom:1px solid #f0dfe2;padding:23px 8%}.how-strip>div{display:grid;grid-template-columns:25px auto;grid-template-rows:auto auto;column-gap:10px}.how-strip>div span{grid-row:1/3;color:#c37c87;font:italic 12px var(--serif);padding-top:2px}.how-strip b{font:500 11px var(--serif)}.how-strip small{font-size:9px;color:#9c8e91;margin-top:4px}.how-strip>i{font-style:normal;color:#d59aa2}.quiz-section{padding:87px 13% 94px;background:#f9e8eb}.section-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}.section-title .eyebrow,.guide-heading .eyebrow{margin-bottom:8px}.section-title h2,.guide-heading h2{font:500 28px var(--serif);letter-spacing:.04em;margin:0}.section-title>div>p{font-size:11px;color:#85767a;margin:10px 0 0}.quiz-badge{width:84px;height:84px;border:1px solid #d9a8ae;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;color:#a96773}.quiz-badge span{font-size:7px;letter-spacing:.14em}.quiz-badge b{font:500 13px var(--serif);margin-top:4px}.quiz-badge i{position:absolute;right:-1px;top:4px;font-style:normal;color:#cd8490}.quiz-shell,.result-shell{max-width:800px;margin:0 auto;background:var(--cream);border:1px solid #ecd9dd;box-shadow:0 18px 40px #894e5c10}.quiz-top{padding:21px 34px 12px;display:flex;justify-content:space-between;color:#a08085;font-size:8px;letter-spacing:.16em}.quiz-top>span:last-child{font-size:10px;color:#74525a;letter-spacing:.08em}.quiz-top i{font-style:normal;color:#b7a6a8}.progress{height:2px;background:#f0e5e5;margin:0 34px}.progress span{display:block;height:100%;width:25%;background:#c57884;transition:width .3s}.quiz-content{padding:31px 7% 34px}.question-tag{font-size:9px;letter-spacing:.09em;color:#c07c86;margin:0 0 10px}.quiz-content h3{font:500 19px/1.7 var(--serif);margin:0 0 5px}.question-desc{font-size:10px;color:#98898b;margin:0 0 22px}.answers{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.answer{appearance:none;border:1px solid #eddee0;background:#fffdfb;min-height:104px;text-align:left;padding:14px 15px;cursor:pointer;color:var(--ink);transition:.2s}.answer:hover{border-color:#cf9ba2;transform:translateY(-2px)}.answer.selected{border-color:#b66776;background:#fff6f5;box-shadow:inset 0 0 0 1px #b66776}.answer-mark{display:block;width:24px;height:24px;border-radius:50%;background:var(--mark,#edccd0);margin-bottom:10px;position:relative}.answer.selected .answer-mark:after{content:"✓";position:absolute;inset:0;display:grid;place-items:center;color:white;font-size:12px}.answer b{display:block;font:500 10px/1.6 var(--sans)}.answer small{display:block;margin-top:4px;font-size:8px;line-height:1.6;color:#96898b}.quiz-bottom{border-top:1px solid #f0e5e5;margin:0 34px;padding:15px 0 20px;display:flex;align-items:center;justify-content:space-between;gap:10px}.back-button,.next-button{border:0;background:none;font:500 10px var(--sans);color:#78575f;cursor:pointer;padding:7px 0}.next-button{color:#914f5e}.next-button:disabled{color:#c9bfc0;cursor:not-allowed}.next-button span{font-size:16px;padding-left:10px}.privacy-note{font-size:8px;color:#b0a2a3}.result-shell{padding:34px 6%;animation:appear .4s ease}@keyframes appear{from{opacity:.35;transform:translateY(7px)}to{opacity:1;transform:none}}.result-hero{display:grid;grid-template-columns:150px 1fr;align-items:center;gap:28px}.season-wheel{width:145px;height:145px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(from 30deg,var(--season-1),var(--season-2),var(--season-3),var(--season-4),var(--season-1));position:relative}.season-wheel:before{content:"";position:absolute;inset:9px;border-radius:50%;background:#fffaf7}.season-wheel span{position:relative;text-align:center;font:500 19px/1.5 var(--serif);color:#65444c}.result-copy>small{font-size:8px;letter-spacing:.17em;color:#ad7c83}.result-copy h3{font:500 26px var(--serif);margin:7px 0}.result-copy p{font-size:10px;line-height:1.9;color:#807377;margin:0;max-width:500px}.profile-chips{display:flex;gap:7px;margin-top:12px;flex-wrap:wrap}.profile-chips span{border:1px solid #ecdadd;border-radius:20px;padding:5px 9px;font-size:8px;color:#8a6b71}.palette-row{display:flex;align-items:center;gap:12px;padding:22px 0;margin-top:18px;border-top:1px solid #f0e2e3;border-bottom:1px solid #f0e2e3}.palette-row>span{font-size:8px;letter-spacing:.1em;color:#a18a8d}.palette-colors{display:flex;gap:8px}.palette-colors i{width:29px;height:29px;border-radius:50%;border:3px solid #fff;box-shadow:0 0 0 1px #e6d7d9}.recommend-title{font:500 15px var(--serif);margin:24px 0 12px}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.product-card{background:#fcf2f1;padding:15px 13px;min-height:127px}.product-card>small{font-size:8px;letter-spacing:.11em;color:#b0737d}.product-card h4{font:500 12px var(--serif);margin:8px 0 5px}.product-card p{font-size:9px;line-height:1.7;color:#87797c;margin:0}.result-foot{display:flex;justify-content:space-between;align-items:center;margin-top:20px}.restart-button{background:none;border:0;padding:8px 0;text-decoration:underline;color:#98777d;font:10px var(--sans);cursor:pointer}.result-foot>a{font-size:10px;text-decoration:none;color:#8d4f5d}.result-note{font-size:8px;line-height:1.7;color:#a09294;margin:18px 0 0}.guide-section{padding:79px 12.5% 66px;background:#fff9f8}.guide-heading{display:flex;align-items:end;justify-content:space-between;margin-bottom:25px}.guide-heading>p{max-width:235px;font-size:10px;line-height:1.8;color:#8b7b7f}.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.guide-card{background:#fff;border:1px solid #f0e6e5}.guide-art{height:147px;position:relative;display:grid;place-items:center;overflow:hidden}.foundation-art{background:#f4e4dc}.lip-art{background:#f3dfe2}.eye-art{background:#e7e3dc}.art-number{position:absolute;right:12px;top:10px;font:italic 10px var(--serif);color:#fff}.shade-palette{display:flex;gap:5px;padding:12px 15px;background:#fff9f5;border-radius:3px;box-shadow:0 10px 25px #805d501c;transform:rotate(-6deg)}.shade-palette i{width:32px;height:58px;border-radius:2px;background:#f3dfcf}.shade-palette i:nth-child(2){background:#dfb89c}.shade-palette i:nth-child(3){background:#c69076}.shade-palette i:nth-child(4){background:#9f6a57}.lip-stroke{display:block;width:124px;height:44px;border-radius:50%;border-bottom:14px solid #b96570;transform:rotate(-25deg);filter:drop-shadow(0 8px 5px #a355632c)}.eye-dots{display:flex;gap:10px}.eye-dots i{width:35px;height:35px;border-radius:50%;background:#b9a894;box-shadow:0 9px 18px #66584a26}.eye-dots i:nth-child(2){background:#c28687}.eye-dots i:nth-child(3){background:#64584f}.guide-copy{padding:17px}.guide-copy>small{font-size:8px;letter-spacing:.12em;color:#b27c82}.guide-copy h3{font:500 13px var(--serif);margin:8px 0}.guide-copy p{font-size:9px;line-height:1.85;color:#887b7d;margin:0}.guide-note{font-size:8px;color:#a39395;margin:17px 0 0}footer{padding:25px 7.5%;display:flex;align-items:center;justify-content:space-between;background:#fff5f5;border-top:1px solid #f0e1e2}footer>span{font:10px var(--serif);color:#98898c}footer>small{font-size:7px;letter-spacing:.12em;color:#ae9fa1}@media(max-width:760px){.topbar{padding:0 5%;height:68px}.topbar nav{gap:15px}.topbar nav a,.header-link{font-size:9px}.hero{padding:51px 8% 45px;grid-template-columns:1fr 1fr;gap:3%}.hero h1{font-size:clamp(42px,7vw,58px)}.hero-art{height:310px}.swatch-card{left:35px;top:84px;width:210px}.lipstick{right:42px;transform:scale(.85) rotate(13deg);transform-origin:bottom}.art-sticker{left:30px}.how-strip{gap:14px;padding:20px 4%}.how-strip b{font-size:9px}.how-strip small{font-size:8px}.quiz-section{padding:68px 7%}.section-title h2,.guide-heading h2{font-size:24px}.answers{gap:7px}.answer{padding:11px;min-height:110px}.answer b{font-size:9px}.result-shell{padding:28px 5%}.result-hero{grid-template-columns:115px 1fr;gap:18px}.season-wheel{width:110px;height:110px}.season-wheel span{font-size:16px}.result-copy h3{font-size:22px}.product-grid{grid-template-columns:repeat(2,1fr)}.guide-section{padding:62px 7%}.guide-grid{gap:9px}.guide-art{height:120px}.guide-copy{padding:13px}.guide-copy p{font-size:8px}footer{padding:22px 5%;gap:10px}footer>span{font-size:9px}}@media(max-width:520px){.topbar nav a:first-child,.header-link{display:none}.topbar nav{gap:22px}.hero{grid-template-columns:1fr;padding:38px 8% 40px;gap:28px}.hero-copy{padding-left:2%}.hero h1{font-size:53px}.hero-art{width:min(100%,360px);height:310px}.how-strip{gap:8px;justify-content:space-between;padding:18px 5%}.how-strip>i{font-size:12px}.how-strip>div{grid-template-columns:19px auto;column-gap:5px}.how-strip b{font-size:8px}.how-strip small{font-size:7px}.quiz-section{padding:52px 5%}.section-title{align-items:center}.section-title h2,.guide-heading h2{font-size:22px}.section-title>div>p{max-width:260px;font-size:9px;line-height:1.7}.quiz-badge{width:64px;height:64px;flex:none}.quiz-badge b{font-size:11px}.quiz-top{padding:18px 19px 11px}.progress{margin:0 19px}.quiz-content{padding:26px 19px}.quiz-content h3{font-size:16px}.question-desc{line-height:1.7}.answers{grid-template-columns:1fr}.answer{min-height:73px;display:grid;grid-template-columns:30px 1fr;grid-template-rows:auto auto;column-gap:10px;align-content:center}.answer-mark{grid-row:1/3;width:23px;height:23px;margin:0}.answer b,.answer small{align-self:end}.answer small{align-self:start}.quiz-bottom{margin:0 19px;padding-top:12px}.privacy-note{font-size:7px}.result-shell{padding:23px 18px}.result-hero{grid-template-columns:1fr;justify-items:start;gap:17px}.season-wheel{width:98px;height:98px}.season-wheel span{font-size:14px}.result-copy h3{font-size:21px}.result-copy p{font-size:9px}.palette-row{align-items:start;flex-direction:column;gap:10px}.product-grid{grid-template-columns:1fr 1fr;gap:7px}.product-card{padding:12px 10px;min-height:132px}.product-card h4{font-size:11px}.product-card p{font-size:8px}.guide-section{padding:55px 6%}.guide-heading{align-items:start;flex-direction:column;gap:8px}.guide-heading>p{margin:0}.guide-grid{grid-template-columns:1fr}.guide-card{display:grid;grid-template-columns:110px 1fr}.guide-art{height:auto;min-height:145px}.guide-copy{padding:15px}.guide-copy h3{font-size:12px}.guide-copy p{font-size:9px}footer{align-items:flex-start;flex-wrap:wrap}footer>span{order:3;width:100%}}
+.answers:has(.answer:nth-child(4)){grid-template-columns:repeat(4,1fr)}@media(max-width:760px){.answers:has(.answer:nth-child(4)){grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.answers:has(.answer:nth-child(4)){grid-template-columns:1fr}}
+.recommend-section{padding:79px 12.5% 68px;background:#fff9f8}.recommend-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.recommend-card{position:relative;background:#fff;border:1px solid #f0e3e3;padding:23px 23px 19px;min-height:224px}.recommend-mark{position:absolute;right:20px;top:18px;color:#d19aa1;font:italic 16px var(--serif)}.recommend-card>small{font-size:8px;letter-spacing:.1em;color:#ae8186}.recommend-card h3{font:500 19px var(--serif);margin:9px 0}.recommend-card p{font-size:10px;line-height:1.9;color:#887b7d;max-width:440px;margin:0}.recommend-tags{display:flex;gap:7px;margin-top:13px}.recommend-tags span{font-size:8px;padding:5px 9px;border-radius:20px;background:#fbf0f0;color:#936e74}.recommend-card>a{display:inline-flex;gap:12px;margin-top:15px;font-size:9px;text-decoration:none;color:#914f5e;border-bottom:1px solid #d6aab0;padding-bottom:4px}.recommend-card>a:hover{color:#633c47}.recommend-card>a span{font-size:12px}@media(max-width:760px){.recommend-section{padding:62px 7%}.recommend-grid{gap:9px}.recommend-card{padding:19px 17px;min-height:230px}}@media(max-width:520px){.recommend-section{padding:55px 6%}.recommend-grid{grid-template-columns:1fr}.recommend-card{min-height:0;padding:20px}.recommend-card p{font-size:9px}}
+
+.submission-status{margin:12px 0 0;font-size:9px;line-height:1.7;color:#8b7278}
+
+
+/* YANSE color studio additions */
+.brand-icon{font-size:17px;font-family:var(--serif);font-weight:500}.studio-section,.seasons-section{padding:78px 12.5%;background:#fff9f8}.studio-section .guide-heading,.seasons-section .guide-heading{margin-bottom:27px}.studio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.studio-card{position:relative;min-height:235px;padding:22px 20px;background:#fff;border:1px solid #f0e1e3;box-shadow:0 8px 24px #8a58620a}.studio-card>span{font-size:8px;letter-spacing:.14em;color:#ad858a}.studio-icon{display:grid;place-items:center;width:43px;height:43px;margin:18px 0 13px;border-radius:50%;background:#f8e5e7;color:#b56f7c;font-size:22px}.makeup-icon{background:#f5e8db;color:#ae806c}.style-icon{background:#ece8f1;color:#88758e}.studio-card h3{font:500 14px var(--serif);margin:0 0 9px}.studio-card p{font-size:9px;line-height:1.9;color:#86787b;margin:0 0 16px}.studio-card a,.about-copy>a{font-size:9px;text-decoration:none;color:#9f5e6c}.studio-note{font-size:8px;color:#a29093;margin:17px 0 0}.seasons-section{background:#f8e9eb}.season-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.season-card{padding:15px;background:#fffaf9;border:1px solid #f0dfe2}.season-card>small{font-size:7px;letter-spacing:.13em;color:#b08389}.season-card h3{font:500 11px var(--serif);margin:8px 0 11px}.season-swatches{display:flex;gap:5px}.season-swatches i{flex:1;height:39px;background:var(--sw);border-radius:2px}.season-card p{font-size:8px;color:#938487;margin:9px 0 0}.about-section{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center;padding:78px 14%;background:#fff9f8}.about-copy h2,.faq-section h2{font:500 26px/1.65 var(--serif);margin:11px 0}.about-copy>p,.faq-section>div:first-child>p{font-size:10px;line-height:2;color:#85787b;max-width:390px}.about-copy>a{display:inline-block;margin-top:12px}.trait-list article{display:grid;grid-template-columns:30px 1fr 20px;gap:12px;align-items:center;padding:16px 0;border-bottom:1px solid #ecdedf}.trait-list article>span{font:italic 11px var(--serif);color:#c17c86}.trait-list b{font:500 11px var(--serif)}.trait-list p{font-size:8px;color:#918386;margin:5px 0 0}.trait-list article>i{font-style:normal;color:#c4858f}.faq-section{padding:72px 14%;display:grid;grid-template-columns:.75fr 1.25fr;gap:9%;background:#f7e6e9}.faq-section h2{font-size:23px}.faq-list details{border-bottom:1px solid #e6d2d6;padding:15px 0}.faq-list summary{font:500 10px var(--serif);cursor:pointer;list-style:none}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary:after{content:'＋';float:right;color:#b66e7b}.faq-list details[open] summary:after{content:'−'}.faq-list details p{font-size:9px;line-height:1.9;color:#84777a;margin:11px 20px 0 0}@media(max-width:760px){.topbar nav{gap:13px}.studio-section,.seasons-section{padding:62px 7%}.studio-card{padding:17px 14px;min-height:235px}.season-grid{grid-template-columns:repeat(3,1fr)}.about-section{padding:62px 8%;gap:5%}.faq-section{padding:58px 8%}}@media(max-width:520px){.topbar nav a:first-child{display:none}.topbar nav{gap:17px}.studio-section,.seasons-section{padding:52px 6%}.studio-grid{grid-template-columns:1fr}.studio-card{min-height:0}.studio-icon{margin:13px 0 10px}.season-grid{grid-template-columns:repeat(2,1fr);gap:7px}.season-card{padding:11px}.season-card h3{font-size:10px}.season-swatches i{height:31px}.about-section,.faq-section{grid-template-columns:1fr;gap:24px;padding:52px 7%}.about-copy h2{font-size:23px}.faq-section h2{margin-bottom:7px}}
+
+</style>
 </head>
 <body>
-  <header class="hero">
-    <nav class="nav">
-      <a class="brand" href="#">色彩研究所 <span>COLOR STUDIO</span></a>
-      <a class="nav-link" href="#recommendations">探索網站 ↗</a>
-    </nav>
-    <div class="hero-content">
-      <p class="eyebrow">YOUR COLOR, YOUR STORY</p>
-      <h1>找到讓你發光的<br><span>命定色彩</span></h1>
-      <p class="hero-text">從穿搭、妝容到髮色，挑選適合你的個人色彩分析工具，讓每天的選擇更有方向。</p>
-      <a class="button button-dark" href="#recommendations">開始探索 <span>↓</span></a>
-      <div class="hero-note"><span class="sparkle">✳</span> 免費測驗與照片分析工具整理</div>
-    </div>
-    <div class="color-orbit" aria-label="柔和色彩色票裝飾">
-      <span class="swatch s1"></span><span class="swatch s2"></span><span class="swatch s3"></span>
-      <span class="swatch s4"></span><span class="swatch s5"></span><span class="swatch s6"></span>
-      <div class="orbit-label">DISCOVER<br>YOUR PALETTE</div>
-    </div>
-    <div class="hero-bottom">PERSONAL COLOR GUIDE <span>01 — 04</span></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-icon">映</span><span>映色<small>YANSE COLOR STUDIO</small></span></a>
+    <nav><a href="#studio">色彩體驗</a><a href="#seasons">12 季型</a><a href="#quiz">開始分析</a><a href="#guide">美妝指南</a></nav>
+    <a class="header-link" href="#quiz">找到我的色彩 <span>↗</span></a>
   </header>
-
   <main>
-    <section class="intro section-wrap">
-      <div>
-        <p class="eyebrow">START HERE</p>
-        <h2>先找到方向，<br>再找到你的風格。</h2>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> A COLOR STORY, MADE FOR YOU</div>
+        <h1>讓你的天生色彩<br><span>成為風格主角。</span></h1>
+        <p>認識自己的冷暖、明暗與色彩氣質。<br>從專屬色盤出發，找到真正適合你的妝容靈感。</p>
+        <a class="button primary-button" href="#quiz">開始 2 題色彩探索 <span>↓</span></a>
+        <div class="hero-footnote"><span>01</span> 2 題快速探索・12 季色彩靈感</div>
       </div>
-      <p class="intro-copy">個人色彩分析通常會參考膚色、明度、彩度與冷暖傾向，協助你探索適合的衣服、彩妝和髮色。線上工具很適合入門，但結果會受到照片光線與相機影響。</p>
-    </section>
-
-    <section class="recommendations section-wrap" id="recommendations">
-      <div class="section-heading">
-        <div><p class="eyebrow">THE SHORTLIST</p><h2>挑一個適合你的分析方式</h2></div>
-        <p>四種入門選擇，從快速測驗到造型探索。</p>
-      </div>
-      <div class="filter-row" aria-label="網站分類篩選">
-        <button class="filter active" data-filter="all">全部推薦</button>
-        <button class="filter" data-filter="photo">照片分析</button>
-        <button class="filter" data-filter="palette">色盤探索</button>
-        <button class="filter" data-filter="style">整體造型</button>
-      </div>
-      <div class="cards">
-        <article class="card" data-category="photo">
-          <div class="card-top"><span class="number">01</span><span class="tag">照片分析</span></div>
-          <div class="mini-art art-pink"><div class="face-shape"></div><div class="mini-palette"><i></i><i></i><i></i><i></i></div><span class="art-caption">FIND YOUR TONE</span></div>
-          <h3>AI 個人色彩分析</h3>
-          <p class="card-desc">想快速取得初步方向，可以試試照片分析工具，看看系統推測的色彩季型與推薦色。</p>
-          <ul><li>操作快速，適合初步探索</li><li>可用推薦色作穿搭靈感</li><li class="caution">照片條件可能影響結果</li></ul>
-          <a class="card-link" href="https://coloranalysis.tools/zh" target="_blank" rel="noopener noreferrer">前往網站 <span>↗</span></a>
-        </article>
-
-        <article class="card" data-category="palette">
-          <div class="card-top"><span class="number">02</span><span class="tag">色盤探索</span></div>
-          <div class="mini-art art-green"><div class="palette-wheel"><b></b></div><span class="art-caption">COLORS THAT SUIT YOU</span></div>
-          <h3>Colorwise.me</h3>
-          <p class="card-desc">適合喜歡研究衣服顏色的人，從個人色盤出發，延伸到日常配色與衣櫥整理。</p>
-          <ul><li>視覺化探索色彩組合</li><li>適合穿搭靈感整理</li><li class="caution">線上結果僅供參考</li></ul>
-          <a class="card-link" href="https://colorwise.me/" target="_blank" rel="noopener noreferrer">前往網站 <span>↗</span></a>
-        </article>
-
-        <article class="card" data-category="style">
-          <div class="card-top"><span class="number">03</span><span class="tag">整體造型</span></div>
-          <div class="mini-art art-lilac"><div class="style-swatch"><span>MAKEUP</span><span>HAIR</span><span>STYLE</span></div><span class="art-caption">YOUR BEAUTY NOTES</span></div>
-          <h3>FaceScore</h3>
-          <p class="card-desc">如果不只想看色彩，也想探索臉型、髮型或妝容方向，可以把它當作造型靈感工具。</p>
-          <ul><li>延伸探索整體造型</li><li>適合蒐集風格靈感</li><li class="caution">不同功能可能有使用限制</li></ul>
-          <a class="card-link" href="https://facescore.net/zh-tw/" target="_blank" rel="noopener noreferrer">前往網站 <span>↗</span></a>
-        </article>
-
-        <article class="card" data-category="palette">
-          <div class="card-top"><span class="number">04</span><span class="tag">色彩入門</span></div>
-          <div class="mini-art art-blue"><div class="season-grid"><span>SPRING</span><span>SUMMER</span><span>AUTUMN</span><span>WINTER</span></div><span class="art-caption">FOUR SEASONS, YOUR WAY</span></div>
-          <h3>Undertona</h3>
-          <p class="card-desc">想從四季色彩與個人色盤開始了解，可以先看看網站提供的測驗與色彩資訊。</p>
-          <ul><li>適合建立色彩基本概念</li><li>可延伸研究妝容與穿搭</li><li class="caution">免費與付費功能請以網站為準</li></ul>
-          <a class="card-link" href="https://undertona.com/" target="_blank" rel="noopener noreferrer">前往網站 <span>↗</span></a>
-        </article>
+      <div class="hero-art" aria-label="粉色系彩妝色票與唇膏">
+        <div class="art-label label-top">YOUR SHADE<br><b>soft rose</b></div>
+        <div class="art-blob blob-back"></div><div class="art-blob blob-front"></div>
+        <div class="swatch-card"><div class="swatch swatch-rose"></div><div class="swatch swatch-peach"></div><div class="swatch swatch-mauve"></div><div class="swatch swatch-berry"></div><small>COLOR NOTES / 01</small></div>
+        <div class="lipstick"><div class="lipstick-bullet"></div><div class="lipstick-case"></div><div class="lipstick-band"></div></div>
+        <div class="art-sticker">the<br>right<br>blush <span>✳</span></div>
+        <div class="art-label label-bottom">COLOR THAT<br>FEELS LIKE YOU</div>
       </div>
     </section>
-
-    <section class="quiz-section">
-      <div class="quiz-inner">
-        <div class="quiz-copy"><p class="eyebrow">A LITTLE QUIZ</p><h2>你最想先解決<br>哪個色彩問題？</h2><p>選一個最符合你的需求，看看從哪裡開始最方便。</p></div>
-        <div class="quiz-box">
-          <button class="quiz-option" data-result="photo"><span>01</span><span>我想快速上傳照片分析</span><b>↗</b></button>
-          <button class="quiz-option" data-result="palette"><span>02</span><span>我想知道衣服適合什麼顏色</span><b>↗</b></button>
-          <button class="quiz-option" data-result="style"><span>03</span><span>我想連妝容和髮型一起研究</span><b>↗</b></button>
-          <div class="quiz-result" id="quizResult" aria-live="polite">選擇上方需求，取得你的入門推薦。</div>
+    <section class="how-strip" id="how"><div><span>01</span><b>找到你的色彩方向</b><small>冷暖、明暗與個人偏好</small></div><i>＋</i><div><span>02</span><b>探索專屬色盤</b><small>12 季色彩靈感</small></div><i>＋</i><div><span>03</span><b>延伸成日常妝容</b><small>唇彩、腮紅與眼妝</small></div></section>
+    <section class="studio-section" id="studio"><div class="guide-heading"><div><div class="eyebrow">A PERSONAL COLOR EXPERIENCE</div><h2>不只知道季型，更懂怎麼運用</h2></div><p>從辨認色彩特質，到把靈感帶進妝容、髮色與衣櫥。</p></div><div class="studio-grid"><article class="studio-card"><span>01 / COLOR SEASON</span><div class="studio-icon season-icon">◒</div><h3>找到你的色彩季型</h3><p>先認識冷暖、明度與彩度，再看適合你的代表色與日常中性色。</p><a href="#seasons">探索 12 季色盤 ↗</a></article><article class="studio-card"><span>02 / MAKEUP EDIT</span><div class="studio-icon makeup-icon">✳</div><h3>整理專屬妝容方向</h3><p>將色彩分析轉成可實際嘗試的唇色、腮紅、眼影與底妝色調。</p><a href="#guide">閱讀美妝指南 ↗</a></article><article class="studio-card"><span>03 / STYLE NOTES</span><div class="studio-icon style-icon">✧</div><h3>把色彩帶進生活</h3><p>用色盤發想服裝、髮色與配件，慢慢建立更自在的個人風格。</p><a href="#quiz">開始探索 ↗</a></article></div><p class="studio-note">映色提供自我探索與美妝靈感；色彩結果會受光線、螢幕與個人感受影響，建議在自然光下實際比色。</p></section>
+<section class="seasons-section" id="seasons"><div class="guide-heading"><div><div class="eyebrow">12 SEASONS / COLOR LIBRARY</div><h2>十二種色彩氣質</h2></div><p>四季各自延伸出不同的冷暖、明暗與柔和度，先找到讓你心動的色盤。</p></div><div class="season-grid">
+<article class="season-card"><small>SPRING 01</small><h3>淺春 Light Spring</h3><div class="season-swatches"><i style="--sw:#f1cc9e"></i><i style="--sw:#efad99"></i><i style="--sw:#d6d895"></i><i style="--sw:#9dc7b1"></i></div><p>明亮、輕盈、暖調</p></article><article class="season-card"><small>SPRING 02</small><h3>暖春 Warm Spring</h3><div class="season-swatches"><i style="--sw:#e9a276"></i><i style="--sw:#e6c05f"></i><i style="--sw:#d78e72"></i><i style="--sw:#9ead69"></i></div><p>溫暖、鮮活、陽光感</p></article><article class="season-card"><small>SPRING 03</small><h3>亮春 Bright Spring</h3><div class="season-swatches"><i style="--sw:#ec776d"></i><i style="--sw:#ebbd45"></i><i style="--sw:#58aa98"></i><i style="--sw:#dc7295"></i></div><p>清晰、鮮明、高彩度</p></article>
+<article class="season-card"><small>SUMMER 01</small><h3>淺夏 Light Summer</h3><div class="season-swatches"><i style="--sw:#e6b8bb"></i><i style="--sw:#c7d6d8"></i><i style="--sw:#c0b6d1"></i><i style="--sw:#efc6bb"></i></div><p>清涼、明亮、柔粉感</p></article><article class="season-card"><small>SUMMER 02</small><h3>冷夏 Cool Summer</h3><div class="season-swatches"><i style="--sw:#c17d92"></i><i style="--sw:#829fb5"></i><i style="--sw:#988fae"></i><i style="--sw:#a5b8b5"></i></div><p>冷調、清透、優雅</p></article><article class="season-card"><small>SUMMER 03</small><h3>柔夏 Soft Summer</h3><div class="season-swatches"><i style="--sw:#b48d95"></i><i style="--sw:#879ca2"></i><i style="--sw:#aaa39a"></i><i style="--sw:#9d91a4"></i></div><p>柔和、低彩度、霧感</p></article>
+<article class="season-card"><small>AUTUMN 01</small><h3>柔秋 Soft Autumn</h3><div class="season-swatches"><i style="--sw:#c59b77"></i><i style="--sw:#9f9c73"></i><i style="--sw:#bc857b"></i><i style="--sw:#927963"></i></div><p>暖柔、大地、低彩度</p></article><article class="season-card"><small>AUTUMN 02</small><h3>暖秋 Warm Autumn</h3><div class="season-swatches"><i style="--sw:#c5784b"></i><i style="--sw:#bf9955"></i><i style="--sw:#8b8b53"></i><i style="--sw:#a65f4c"></i></div><p>濃暖、醇厚、自然感</p></article><article class="season-card"><small>AUTUMN 03</small><h3>深秋 Deep Autumn</h3><div class="season-swatches"><i style="--sw:#704b3d"></i><i style="--sw:#6c6844"></i><i style="--sw:#8b514d"></i><i style="--sw:#354f48"></i></div><p>深沉、暖調、有份量</p></article>
+<article class="season-card"><small>WINTER 01</small><h3>深冬 Deep Winter</h3><div class="season-swatches"><i style="--sw:#56354a"></i><i style="--sw:#334c5b"></i><i style="--sw:#793d4f"></i><i style="--sw:#34363e"></i></div><p>深邃、冷調、鮮明</p></article><article class="season-card"><small>WINTER 02</small><h3>冷冬 Cool Winter</h3><div class="season-swatches"><i style="--sw:#a94260"></i><i style="--sw:#435a88"></i><i style="--sw:#704d81"></i><i style="--sw:#286f79"></i></div><p>冷冽、清晰、寶石感</p></article><article class="season-card"><small>WINTER 03</small><h3>亮冬 Bright Winter</h3><div class="season-swatches"><i style="--sw:#ec3d67"></i><i style="--sw:#397ed2"></i><i style="--sw:#19a88b"></i><i style="--sw:#833ca2"></i></div><p>高對比、純淨、耀眼</p></article>
+</div></section><section class="quiz-section" id="quiz">
+      <div class="section-title"><div><div class="eyebrow">YOUR PERSONAL COLOR</div><h2>我的色彩分析</h2><p>選最接近平常狀態的答案，靠近窗邊的自然光會更準確。</p></div><div class="quiz-badge"><span>COLOR</span><b>診斷室</b><i>✳</i></div></div>
+      <div class="quiz-shell" id="quizShell">
+        <div class="quiz-top"><span id="stepLabel">QUESTION 01</span><span id="stepNumber">01 <i>/ 02</i></span></div>
+        <div class="progress"><span id="progressBar"></span></div>
+        <div class="quiz-content">
+          <p class="question-tag" id="questionTag">先觀察日常</p>
+          <h3 id="questionTitle">平常戴哪種金屬飾品，會讓你的膚色看起來更有精神？</h3>
+          <p class="question-desc" id="questionDesc">回想最常戴、也最襯膚色的耳環或項鍊。</p>
+          <div class="answers" id="answers"></div>
         </div>
+        <div class="quiz-bottom"><button class="back-button" id="backButton" hidden>← 上一題</button><span class="privacy-note">提交後會匿名保存回答與結果；不收集姓名或聯絡資料</span><button class="next-button" id="nextButton" disabled>下一題 <span>→</span></button></div>
       </div>
+      <div class="result-shell" id="resultShell" hidden></div>
     </section>
-
-    <section class="tips section-wrap">
-      <div class="tips-title"><p class="eyebrow">BEFORE YOU TEST</p><h2>讓分析更有參考價值<br><span>記得這三件事。</span></h2></div>
-      <div class="tip-list">
-        <div class="tip"><span>01</span><div><h3>選自然光</h3><p>在窗邊拍攝，避免黃光、強烈陰影與濾鏡。</p></div></div>
-        <div class="tip"><span>02</span><div><h3>盡量素顏</h3><p>避免底妝或修圖改變膚色呈現，並讓臉部完整入鏡。</p></div></div>
-        <div class="tip"><span>03</span><div><h3>多方交叉參考</h3><p>不同工具的分類方式可能不同，不必把單次結果當成定論。</p></div></div>
-      </div>
-    </section>
+    <section class="guide-section" id="guide"><div class="guide-heading"><div><div class="eyebrow">YOUR BEAUTY EDIT</div><h2>彩妝，從選對色開始</h2></div><p>不是追著流行買，而是找到能融入你日常的顏色。</p></div><div class="guide-grid"><article class="guide-card"><div class="guide-art foundation-art"><span class="shade-palette"><i></i><i></i><i></i><i></i></span><span class="art-number">01</span></div><div class="guide-copy"><small>BASE / 底妝</small><h3>貼近脖子，不追求變白</h3><p>先確認粉底冷暖底調，再選接近下顎與脖子交界的色號。自然光下試色，等幾分鐘再看氧化後的顏色。</p></div></article><article class="guide-card"><div class="guide-art lip-art"><span class="lip-stroke"></span><span class="art-number">02</span></div><div class="guide-copy"><small>LIPS / 唇彩</small><h3>用一抹唇色找氣色</h3><p>暖調可從珊瑚、杏桃與磚紅試起；冷調可試玫瑰、莓果與藕粉。薄擦觀察整體，再決定飽和度。</p></div></article><article class="guide-card"><div class="guide-art eye-art"><span class="eye-dots"><i></i><i></i><i></i></span><span class="art-number">03</span></div><div class="guide-copy"><small>CHEEKS & EYES / 腮紅與眼妝</small><h3>讓眼頰色調彼此呼應</h3><p>腮紅和唇色選同一冷暖方向；眼影用相近的大地色打底，日常妝就有完整感。</p></div></article></div><p class="guide-note">色彩分析是日常搭配參考，每個人的膚色與喜好都不同，實際試色和自己喜歡最重要。</p></section>
+    <section class="about-section" id="about"><div class="about-copy"><div class="eyebrow">THE LANGUAGE OF COLOR</div><h2>色彩，從三個維度<br>讀懂你的天生氣質。</h2><p>個人色彩不只分冷皮和暖皮。明度描述整體偏淺或偏深，彩度則看你更適合清晰鮮明，還是柔和霧感的顏色。把這些線索放在一起，才會找到更貼近自己的色盤。</p><a href="#quiz">用兩題開始探索 →</a></div><div class="trait-list"><article><span>01</span><div><b>冷暖 Undertone</b><p>偏金黃、桃色的暖調，或偏粉、藍感的冷調。</p></div><i>＋</i></article><article><span>02</span><div><b>明度 Value</b><p>由淺到深，觀察整體膚色與髮眼的明暗感。</p></div><i>＋</i></article><article><span>03</span><div><b>彩度 Chroma</b><p>清晰明亮或柔和含灰，決定色彩需要多鮮明。</p></div><i>＝</i></article></div></section>
+    <section class="faq-section"><div><div class="eyebrow">A FEW NOTES</div><h2>關於色彩分析</h2><p>把結果當成起點，最後還是以自然光試色和自己的感受為準。</p></div><div class="faq-list"><details><summary>兩題測驗可以精準判斷我的季型嗎？</summary><p>這是快速入門版，適合取得大方向。完整的 12 季分析還需要更仔細比對冷暖、明度和彩度；不同光線、相機和染髮也會影響觀察。</p></details><details><summary>為什麼線上結果和我實際試色不完全一樣？</summary><p>螢幕顯色、室內燈光、底妝和個人偏好都會改變視覺效果。建議在窗邊自然光下，把顏色靠近臉部比較。</p></details><details><summary>結果會推薦特定品牌或商品嗎？</summary><p>目前提供的是色調與妝容類別建議，不綁定品牌。購買前請先試色，也記得留意自己的膚質和使用習慣。</p></details></div></section>
   </main>
+  <footer><a class="brand" href="#home"><span class="brand-icon">映</span><span>映色<small>YANSE COLOR STUDIO</small></span></a><span>不是改變自己，而是看見本來的光。</span><small>COLOR WITH CARE · 2026</small></footer>
+  <script>
+const questions = [
+  {
+    tag: '先觀察日常', title: '平常戴哪種金屬飾品，會讓你的膚色看起來更有精神？', desc: '回想最常戴、也最襯膚色的耳環或項鍊。',
+    answers: [
+      { title: '金色、玫瑰金', note: '膚色看起來更明亮有精神', value: 'warm', color: '#d9ad75' },
+      { title: '銀色、白金', note: '膚色看起來更清透乾淨', value: 'cool', color: '#bdc2c7' },
+      { title: '金銀都可以', note: '不同金屬戴起來都自然', value: 'neutral', color: '#d7c4bc' }
+    ]
+  },
+  {
+    tag: '想想曬太陽後', title: '長時間待在陽光下，你的肌膚通常怎麼反應？', desc: '回想夏天戶外活動後的膚色變化；這只是參考線索。',
+    answers: [
+      { title: '容易曬紅', note: '膚色常泛粉紅或紅感', value: 'cool', color: '#df9c9c' },
+      { title: '容易曬成小麥色', note: '膚色會加深成金棕色', value: 'warm', color: '#c88d68' },
+      { title: '先紅後變深，或不太確定', note: '冷暖變化沒有明顯傾向', value: 'neutral', color: '#c6a494' }
+    ]
+  },
+  {
+    tag: '看看自然對比', title: '不化妝時，你的髮色、眼睛和膚色明暗反差如何？', desc: '看整體印象即可，不需要分辨單一五官。',
+    answers: [
+      { title: '柔和偏低', note: '髮眼與膚色的明暗差異不大', value: 'soft', color: '#c8b4ad' },
+      { title: '中等、輪廓清楚', note: '看得出五官，但整體不強烈', value: 'medium', color: '#a8867f' },
+      { title: '鮮明偏高', note: '髮眼和膚色的明暗反差明顯', value: 'bright', color: '#55434b' }
+    ]
+  },
+  {
+    tag: '再確認冷暖線索', title: '手腕內側的血管，在自然光下看起來偏什麼顏色？', desc: '這只是輔助觀察，不容易分辨也可以選「看起來混合」。',
+    answers: [
+      { title: '偏綠或橄欖色', note: '通常是暖調線索之一', value: 'warm', color: '#8f9b72' },
+      { title: '偏藍或紫色', note: '通常是冷調線索之一', value: 'cool', color: '#8283a5' },
+      { title: '藍綠都有、不明顯', note: '可能是中性或混合傾向', value: 'neutral', color: '#9b9a91' }
+    ]
+  },
+  {
+    tag: '比較白色衣料', title: '把白色衣服靠近臉時，哪一種白更襯你？', desc: '可以回想純白 T 恤和奶油白上衣的差別。',
+    answers: [
+      { title: '奶油白、象牙白', note: '柔和的暖白更顯氣色', value: 'warm', color: '#e9d7b7' },
+      { title: '純白、冷白', note: '清晰的冷白更顯乾淨', value: 'cool', color: '#d9e0e4' },
+      { title: '兩種都可以', note: '白色深淺比冷暖更重要', value: 'neutral', color: '#e7e4dc' }
+    ]
+  },
+  {
+    tag: '補充五官明暗', title: '你的原生髮色和眼睛顏色，整體看起來偏哪一種？', desc: '先想像沒染髮、沒戴變色片時的樣子。',
+    answers: [
+      { title: '偏淺或柔和', note: '例如淺棕髮、淺茶色眼睛', value: 'soft', color: '#bda89a' },
+      { title: '中等深度', note: '例如自然棕髮、深棕色眼睛', value: 'medium', color: '#896c5e' },
+      { title: '偏深或很鮮明', note: '例如黑髮、深色眼睛與明顯反差', value: 'bright', color: '#342d31' }
+    ]
+  },
+  {
+    tag: '最後選一組色調', title: '哪一組顏色穿在身上，最常讓你覺得氣色好？', desc: '不確定的話，選最想嘗試的一組就好。',
+    answers: [
+      { title: '蜜桃、珊瑚、奶油黃', note: '明亮、帶暖意的顏色', value: 'spring', color: '#e6a18b' },
+      { title: '焦糖、橄欖、磚紅', note: '柔和、濃郁的大地色', value: 'autumn', color: '#ab755d' },
+      { title: '玫瑰、霧藍、藕粉', note: '輕柔、帶冷感的色調', value: 'summer', color: '#aa8797' },
+      { title: '莓果、酒紅、寶石藍', note: '清晰、飽和的冷色調', value: 'winter', color: '#744d69' }
+    ]
+  }
+];
+questions.splice(5, 1);
+questions.splice(2, 1);
 
-  <footer class="footer">
-    <a class="brand" href="#">色彩研究所 <span>COLOR STUDIO</span></a>
-    <p>找到適合自己的顏色，不必追求標準答案。</p>
-    <span class="footer-mark">MADE FOR YOUR EVERYDAY GLOW ✳</span>
-  </footer>
-  <script src="script.js"></script>
+const looks = {
+  spring: { en:'LIGHT & WARM', season:'明亮春日型', title:'暖調 × 明亮，讓氣色輕盈發光。', body:'你的線索偏向溫暖明亮。清透、帶暖意的色彩很適合你，妝感可以輕快有光澤。', chips:['暖色調','明亮清透','金色飾品'], colors:['#e69a7e','#efc77b','#cf8c91','#a9ad79','#d7ab8e'], makeup:[['底妝','中性偏黃／暖米色','先試偏黃或中性暖底調，色號以自然光下和脖子銜接為準。'],['唇彩','蜜桃珊瑚、番茄紅','選清透有光澤的暖色，薄擦就能提氣色。'],['腮紅','杏桃、珊瑚粉','少量上在笑肌，會像自然透出的紅潤感。'],['眼影','香檳金、暖棕','奶茶棕打底，局部疊一點香檳金，明亮又日常。']] },
+  summer: { en:'SOFT & COOL', season:'柔霧夏日型', title:'冷調 × 柔和，像柔焦般細緻。', body:'你的線索偏向清涼柔和。帶灰感、低飽和的色彩能自然融入膚色，妝容保持輕柔就很有氣質。', chips:['冷色調','柔霧低飽和','銀色飾品'], colors:['#b98893','#8fa5b1','#cbbab3','#9c8b9d','#c78d88'], makeup:[['底妝','中性偏粉／冷米色','可留意中性或偏粉底調，在臉頰與下顎交界自然融合最重要。'],['唇彩','玫瑰豆沙、乾燥莓果','挑冷玫瑰或帶灰感的粉色，薄擦暈開最顯清透。'],['腮紅','藕粉、冷玫瑰','用柔霧冷粉少量疊擦，避免過橘的色調搶走氣色。'],['眼影','灰棕、霧紫、冷米色','用灰棕加深眼尾，低彩度眼影可以放大溫柔感。']] },
+  autumn: { en:'SOFT & WARM', season:'溫暖秋日型', title:'暖調 × 柔和，散發溫潤質感。', body:'你的線索偏向溫暖沉穩。大地色、陶土色與柔和的金棕能襯出自然氣色，也很好融入日常穿搭。', chips:['暖色調','大地沉穩','金色飾品'], colors:['#b66f55','#c99263','#8f8b65','#b27e73','#735449'], makeup:[['底妝','暖米色／中性暖調','先試暖米色或中性暖調，避免為了提亮而選得比脖子淺太多。'],['唇彩','磚紅、肉桂、陶土棕','暖棕紅或陶土色能和膚色自然融合，飽和度可從薄擦開始。'],['腮紅','杏棕、陶土橘','暖橘棕少量暈在雙頰，能讓整體妝感更完整。'],['眼影','橄欖棕、古銅金','用柔霧棕描出輪廓，再加一點古銅金作為眼皮亮點。']] },
+  winter: { en:'CLEAR & COOL', season:'鮮明冬日型', title:'冷調 × 鮮明，俐落又有焦點。', body:'你的線索偏向清晰明亮。高對比、飽和的冷色能呼應五官輪廓；妝容抓住一個重點色就很出色。', chips:['冷色調','鮮明高對比','銀色飾品'], colors:['#a34f69','#4f6f7d','#b76f82','#655773','#d0ad72'], makeup:[['底妝','中性偏粉／冷調','先比較中性與冷調色號，薄上一層並在自然光下確認頸部銜接。'],['唇彩','莓果、冷紅、覆盆莓','選輪廓清楚的莓果或冷紅色；薄擦俐落，厚擦更有存在感。'],['腮紅','冷粉、莓果粉','用量少一點，選明亮冷粉作為唇色的呼應。'],['眼影','冷棕、石墨灰、藍灰','以冷棕打底並保持線條清楚，也可用灰藍增加鮮明感。']] }
+};
+
+const answers = new Array(questions.length).fill(null);
+let step = 0;
+const answerHost = document.querySelector('#answers');
+const nextButton = document.querySelector('#nextButton');
+const backButton = document.querySelector('#backButton');
+const supabaseUrl = 'https://sujubnpnjcthritvpbpg.supabase.co';
+const supabasePublishableKey = 'sb_publishable_-g1QnpANd64S18dRs5cSww_GeOwVG67';
+
+async function saveQuizSubmission(result) {
+  const status = document.querySelector('#submissionStatus');
+  try {
+    const response = await fetch(supabaseUrl + '/rest/v1/quiz_submissions', {
+      method: 'POST',
+      headers: {
+        apikey: supabasePublishableKey,
+        Authorization: 'Bearer ' + supabasePublishableKey,
+        'Content-Type': 'application/json',
+        Prefer: 'return=minimal'
+      },
+      body: JSON.stringify({
+        answers: questions.map((question, index) => ({
+          question: question.tag,
+          answer: question.answers[answers[index]].value
+        })),
+        result
+      })
+    });
+    if (!response.ok) throw new Error('Submission failed');
+    status.textContent = '已匿名保存這次的回答與色彩結果。';
+  } catch {
+    status.textContent = '目前無法保存回答；你的色彩建議仍可正常查看。';
+  }
+}
+
+function renderQuestion() {
+  const question = questions[step];
+  const number = String(step + 1).padStart(2, '0');
+  const total = String(questions.length).padStart(2, '0');
+  document.querySelector('#stepLabel').textContent = `QUESTION ${number}`;
+  document.querySelector('#stepNumber').innerHTML = `${number} <i>/ ${total}</i>`;
+  document.querySelector('#progressBar').style.width = `${(step + 1) / questions.length * 100}%`;
+  document.querySelector('#questionTag').textContent = question.tag;
+  document.querySelector('#questionTitle').textContent = question.title;
+  document.querySelector('#questionDesc').textContent = question.desc;
+  answerHost.innerHTML = question.answers.map((answer, index) => `<button class="answer ${answers[step] === index ? 'selected' : ''}" data-index="${index}" style="--mark:${answer.color}"><span class="answer-mark"></span><span><b>${answer.title}</b><small>${answer.note}</small></span></button>`).join('');
+  answerHost.querySelectorAll('.answer').forEach(button => button.addEventListener('click', () => {
+    answers[step] = Number(button.dataset.index);
+    answerHost.querySelectorAll('.answer').forEach(item => item.classList.toggle('selected', item === button));
+    nextButton.disabled = false;
+  }));
+  nextButton.disabled = answers[step] === null;
+  nextButton.innerHTML = step === questions.length - 1 ? '查看我的分析 <span>→</span>' : '下一題 <span>→</span>';
+  backButton.hidden = step === 0;
+}
+
+function classify() {
+  const selectedPalette = questions[4].answers[answers[4]].value;
+  const paletteWarm = ['spring','autumn'].includes(selectedPalette);
+  const undertones = [0, 1, 2, 3].map(index => questions[index].answers[answers[index]].value);
+  const warmVotes = undertones.filter(value => value === 'warm').length;
+  const coolVotes = undertones.filter(value => value === 'cool').length;
+  const warm = warmVotes === coolVotes ? paletteWarm : warmVotes > coolVotes;
+  const vivid = ['spring','winter'].includes(selectedPalette);
+  return warm ? (vivid ? 'spring' : 'autumn') : (vivid ? 'winter' : 'summer');
+}
+
+function showResult() {
+  const key = classify();
+  const result = looks[key];
+  const resultShell = document.querySelector('#resultShell');
+  resultShell.innerHTML = `<div class="result-hero"><div class="season-wheel" style="--season-1:${result.colors[0]};--season-2:${result.colors[1]};--season-3:${result.colors[2]};--season-4:${result.colors[3]}"><span>${result.season.slice(0,2)}<br>色彩</span></div><div class="result-copy"><small>${result.en} / YOUR COLOR PROFILE</small><h3>${result.title}</h3><p>${result.body}</p><div class="profile-chips">${result.chips.map(chip=>`<span>${chip}</span>`).join('')}</div></div></div><div class="palette-row"><span>你的色彩盤</span><div class="palette-colors">${result.colors.map(color=>`<i style="background:${color}" title="推薦色"></i>`).join('')}</div></div><h4 class="recommend-title">你的日常彩妝推薦方向</h4><div class="product-grid">${result.makeup.map(item=>`<article class="product-card"><small>${item[0]}</small><h4>${item[1]}</h4><p>${item[2]}</p></article>`).join('')}</div><div class="result-foot"><button class="restart-button" id="restartButton">重新回答 ↻</button><a href="#guide">閱讀彩妝小指南 ↓</a></div><p class="result-note">這是依照你的自我觀察產生的色彩方向參考，不是專業現場診斷。膚色、光線與個人喜好都會影響實際效果；購買前請盡可能試色。</p>`;
+  resultShell.insertAdjacentHTML('beforeend', '<p class="submission-status" id="submissionStatus" role="status" aria-live="polite">正在匿名保存這次的回答與色彩結果…</p>');
+  document.querySelector('#quizShell').hidden = true;
+  resultShell.hidden = false;
+  saveQuizSubmission(key);
+  resultShell.scrollIntoView({behavior:'smooth',block:'center'});
+  document.querySelector('#restartButton').addEventListener('click', () => {
+    answers.fill(null); step = 0;
+    resultShell.hidden = true;
+    document.querySelector('#quizShell').hidden = false;
+    renderQuestion();
+    document.querySelector('#quiz').scrollIntoView({behavior:'smooth'});
+  });
+}
+
+nextButton.addEventListener('click', () => { if (step < questions.length - 1) { step += 1; renderQuestion(); } else showResult(); });
+backButton.addEventListener('click', () => { if (step > 0) { step -= 1; renderQuestion(); } });
+renderQuestion();
+
+</script>
 </body>
 </html>
+
+
